@@ -8,7 +8,7 @@ void main(){
             for (k=0;k<3;k++)
             {
                 a[i][j][k] = i*j*k*(i+1)*(j+2);
-                printf("%d", a[i][j][k]);
+                printf(" %d ", a[i][j][k]);
             }
             printf("\n");
         }
